@@ -97,6 +97,11 @@ No skal me starte på GUI. Les kommentarane for å forstå kva som skjer.
                                font=('Helvetica', 30))
   points_label.pack()
 
+  time_label = tkinter.Label(root,
+                           text="Tid igjen: " + str(time_left),
+                           font=('Helvetica', 30))
+  time_label.pack()
+
   label = tkinter.Label(root, font=('Helvetica', 100))
   label.pack()
 
